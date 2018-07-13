@@ -9,17 +9,22 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
   const reviewFields = _.map(formFields, ({ name, label }) => {
     return (
       <div key={name}>
-        <label>{label}</label>
-        <div>{formValues[name]}</div>
+        <label className="white-text form-label">{label} : </label>
+                 {' '}        {formValues[name]}
       </div>
     );
   });
 
   return (
-    <div>
+    <div className="container">
+        <div>
+        <h5 className="result-review">Please confirm your entries</h5>
+        <img className="emails-gif" src=".././emails.gif"/>
+        </div>
       <div className="card blue-grey darken-1">
         <div className="card-content white-text center-align">
-          <h5>Please confirm your entries</h5>
+          {' '}
+          {' '}
           {reviewFields}
         </div>
       </div>

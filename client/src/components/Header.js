@@ -36,9 +36,9 @@ class Header extends Component {
             to={this.props.auth ? '/surveys' : '/'}
             className="left brand-logo"
           >
-            Emailer
+            <span className="header">Emailer</span> <i className="material-icons email">email</i>
           </Link>
-          <ul className="right">{this.renderConent()}</ul>
+          <ul className="right nav-login">{this.renderConent()}</ul>
         </div>
       </nav>
     );

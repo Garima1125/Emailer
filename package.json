@@ -19,8 +19,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
     "concurrently": "^3.5.1",
     "cookie-session": "^2.0.0-beta.3",
+    "css": "^2.2.1",
     "express": "^4.16.2",
     "localtunnel": "^1.8.3",
     "lodash": "^4.17.5",
@@ -29,6 +31,10 @@
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "path-parser": "^3.0.1",
+    "react-chartjs-2": "^2.7.0",
+    "react-materialize": "^2.1.4",
+    "react-sweet-progress": "^1.1.0",
+    "remove": "^0.1.5",
     "sendgrid": "^5.2.3",
     "strip": "^3.0.0",
     "stripe": "^5.5.0"

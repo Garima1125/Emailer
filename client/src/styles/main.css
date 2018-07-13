@@ -1,0 +1,64 @@
+.header {
+    font-size: 36px;
+    font-family:  'Pacifico', cursive;
+}
+
+label{
+    font-size: 17px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.email{
+    margin-left: 30px;
+}
+
+.nav-login{
+    margin-right: 40px;
+}
+
+.cancel-btn{
+vertical-align: -62px;
+margin-left: 126px;
+}
+
+.next-btn{
+    margin-right: 130px;
+    margin-top: 54px;
+}
+
+.result-head{
+    text-decoration: underline;
+    color: indianred;
+}
+
+.form-label{
+    text-decoration: underline;
+    margin-right: 40px;
+}
+
+footer.page-footer {
+    padding-top:0px;
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 46px;
+}
+
+.results{
+        height: 300px;
+        width: 850px;
+}
+
+.emails-gif{
+    width: 30%;
+    height:40%;
+    border-radius: 60%;
+    margin-left: 282px;
+}
+
+.result-review{
+    text-decoration: underline;
+}
